@@ -2,80 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Story Books By Me</title>
     
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;💨&lt;/text&gt;&lt;/svg&gt;"> -->
-    <!-- <link href="/css/app.css" rel="stylesheet"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;💨&lt;/text&gt;&lt;/svg&gt;">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        .overlay {
-            background: rgba(236, 72, 153, 0.8); /* Adjust the RGBA value for desired pink color and opacity */
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 10;
-        }
-        .text-overlay {
-            z-index: 20;
-        }
-        .arrow {
-            z-index: 30;
-        }
-    </style>
 </head>
 <body class="bg-gray-100 flex flex-col items-center overflow-x-hidden">
 <section class="w-screen min-h-screen">
     <main class="w-screen min-h-screen bg-white lg:overflow-hidden">
-            
-        <section class="w-screen min-h-screen bg-pink-500 flex flex-col items-center text-white p-8">
-            <div class="flex-grow flex flex-col items-center justify-center">
-                <div class="max-w-4xl text-center">
-                    <p class="text-4xl font-bold leading-tight">
-                        Imagine... a safe A.I. platform for any child to create original storybooks in their own words, artfully illustrated in a style they choose and delivered right to their door.
-                    </p>
-                </div>
-                <div class="mt-8">
-                    <img src="images/sbbm_book.png" alt="Story Books By Me" class="w-1/2 mx-auto">
-                </div>
+        <section id="section3" class="w-screen min-h-screen flex flex-col items-center justify-start text-gray-900 px-8 py-4">
+            <div class="flex flex-wrap justify-center gap-4 mt-4">
+                <img src="images/sammy_and_me.png" alt="Story Books By Me" class="w-1/3 sm:w-1/3 lg:w-1/6  max-w-s">
+                <img src="images/whale.png" alt="Story Books By Me" class="w-1/3 sm:w-1/3 lg:w-1/6  max-w-s">
             </div>
-            <div class="absolute bottom-8 arrow">
-                <a href="#section2">
-                    <img src="images/down-arrow-download-svgrepo-com.svg" alt="Down Arrow" class="w-12 mx-auto">
-                </a>
+            <div class="max-w-4xl text-center mt-4">
+                <p class="text-2xl leading-tight">
+                    Imagine... a safe A.I. platform for any child to create original storybooks in their own words, artfully illustrated in a style they choose and delivered right to their door.
+                </p>
             </div>
-        </section>
-
-        <section id="section2" class="relative w-screen min-h-screen flex items-center justify-center text-white p-8">
-            <div class="absolute inset-0 overlay"></div>
-            <div class="relative w-full h-3/4 sm:w-3/4 md:w-2/3 lg:w-1/2 h-full sm:h-3/4 md:h-2/3 lg:h-1/2 flex items-center justify-center">
-                <img src="images/5.png" alt="Base Image" class="w-full h-full object-cover">
-                <div class="absolute inset-0 flex items-center justify-center text-overlay">
-                    <h1 class="text-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                        STAY TUNED.<br>
-                        WE'RE ABOUT TO REVOLUTIONIZE<br>
-                        THE CHILDREN'S BOOK MARKET.
-                    </h1>
-                </div>
-            </div>
-            <div class="absolute bottom-8 arrow">
-                <a href="#section3">
-                    <img src="images/down-arrow-download-svgrepo-com.svg" alt="Down Arrow" class="w-12 mx-auto">
-                </a>
-            </div>
-        </section>
-
-        <section id="section3" class="w-screen min-h-screen flex flex-col items-center justify-center text-gray-900 px-8">
-            <div class="relative w-full h-3/4 sm:w-3/4 md:w-2/3 lg:w-1/2 h-full sm:h-3/4 md:h-2/3 lg:h-1/2 flex items-center justify-center">
+            <div class="relative w-full h-3/4 sm:w-3/4 md:w-2/3 lg:w-1/2 h-full sm:h-3/4 md:h-2/3 lg:h-1/2 flex items-center justify-center mt-4">
                 <img src="images/sbbm_every_child.jpg" alt="Story Books By Me" class="mx-auto w-100px">
                 <!-- <p class="mt-4 text-lg font-semibold">Because every child has a story to tell.</p> -->
             </div>
-            <div class="w-full flex flex-col sm:flex-row justify-between max-w-4xl gap-4">
+            <div class="max-w-4xl text-center mt-4">
+                <p class="text-2xl font-bold leading-tight">
+                    STAY TUNED. WE'RE ABOUT TO REVOLUTIONIZE THE CHILDREN'S BOOK MARKET.
+                </p>
+            </div>
+            <div class="w-full flex flex-col sm:flex-row justify-between max-w-4xl gap-4 mt-4">
                 <button class="rounded bg-pink-500 hover:bg-pink-600 px-4 font-medium text-sm py-1 text-white flex w-full sm:w-auto justify-center items-center focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 py-2.5">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSca4MdtvqdgqqnkpK0A8EnSLcYxYTSzrTP6EpgXuGSrcaZOog/viewform?usp=sf_link" class="text-white text-center w-full">
                         <b>INTERESTED IN UPDATES?</b><br />
@@ -89,6 +44,7 @@
                     </a>
                 </button>
             </div>
+            
         </section>
     </main>
 </section>
